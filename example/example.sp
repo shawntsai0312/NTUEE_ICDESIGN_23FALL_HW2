@@ -1,5 +1,5 @@
 *********************************************
-.inc '90nm_bulk.l'
+.inc '../90nm_bulk.l'
 .SUBCKT Inv DVDD GND In Out
 *.PININFO DVDD:I GND:I In:I Out:O
 MM1 Out In GND GND NMOS l=0.1u w=0.25u m=1
