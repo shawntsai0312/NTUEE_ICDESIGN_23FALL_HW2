@@ -5,3 +5,8 @@
 ```
 ./tool.sh
 ```
+
+### How To Run Simulation
+```
+hspice [spice file]
+```

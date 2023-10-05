@@ -1,2 +1,6 @@
 .DS_Store
 .vscode/
+*.ic0
+*.pa0
+*.st0
+*.tr0
