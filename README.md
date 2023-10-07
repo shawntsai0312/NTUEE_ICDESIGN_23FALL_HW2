@@ -3,7 +3,7 @@
 
 ### Before Running
 ```
-./tool.sh
+source tool.sh
 ```
 
 ### How To Run Simulation

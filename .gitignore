@@ -3,4 +3,10 @@
 *.ic0
 *.pa0
 *.st0
-*.tr0
+*.log
+*.conf
+*.bat
+*.rc
+*.cmd
+*.bak
+*fsdb
