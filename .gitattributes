@@ -1,1 +1,2 @@
 *.sp linguist-language=spice
+*.l linguist-language=spiceLibrary
