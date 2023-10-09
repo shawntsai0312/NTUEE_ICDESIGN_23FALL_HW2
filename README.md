@@ -20,4 +20,6 @@ nWave &
 1. And2
     1. Input waveform: v(ina), v(inb)
     2. Output waveform: v(out)
-2. FA 
+2. FA1
+    1. Input waveform: v(ina), v(inb), v(inci),
+    2. Output waveform: v(outco), v(outs)
