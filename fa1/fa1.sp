@@ -11,7 +11,7 @@ MP      Out     In      DVDD    DVDD    PMOS    l=0.1u  w=0.5u  m=1
 *********************************************
 
 *********************************************
-* This is the subcircuit of the (AB+CI(A+B))
+* This is the subcircuit of the logic (AB+CI(A+B))'
 .SUBCKT Logic DVDD GND InA InB InCI Out
 *.PININFO DVDD:I GND:I InA:I InB:I InCI:I Out:O
 MNA1    N1      InA     GND     GND     NMOS    l=0.1u  w=0.25u m=1
