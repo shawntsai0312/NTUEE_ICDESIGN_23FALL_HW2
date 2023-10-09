@@ -25,7 +25,7 @@ MPB     Out     InB     DVDD    DVDD    PMOS    l=0.1u  w=0.5u  m=1
 Vdd DVDD    0   1
 Vss GND     0   0
 
-* define input signala
+* define input signals
 Va InA      0   pulse (0 1 0 100n 100n 0.4u 1u)
 Vb InB      0   pulse (0 1 0 100n 100n 0.9u 2u)
 
@@ -33,6 +33,7 @@ Vb InB      0   pulse (0 1 0 100n 100n 0.9u 2u)
 xNand2  DVDD    GND     InA     InB     InvIn     Nand2
 xInv    DVDD    GND     InvIn   Out     Inv
 
+* sampling and compiling configurations
 .tran 10n 2.1u
 .op
 .option post
